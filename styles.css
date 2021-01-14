@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+    font-size: 16px;
+
+}
+
+header {
+    font-family: 'Segoe Print';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #A69889;
+    color: #022859;
+    border: 1px solid blue;
+    margin-top: -20px;
+}
+
+nav {
+    text-align: center;
+    
+    
+
+}
+nav ul {
+    
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+nav ul li {
+    padding: 0 10px;
+    margin: -30px 10px 0 10px;
+}
+nav ul li a:link {
+    color: #022859;
+}
+
+nav ul li a:visited {
+    color: #686F73;
+}
+nav ul li a:hover {
+    color: white;
+}
+nav ul li a:active {
+    color: grey;
+}
+
+#mission {
+
+}
+
+#products {
+    display: flexbox;
+}
+
+.product-photo {
+   float: right;
+}
