@@ -133,6 +133,30 @@ a:active {
     
 }
 .bio-photos {
-    width: 50%;
+    width: 70%;
     
+}
+
+@media only screen and (max-width: 1085px) {
+    .grid {
+        grid-template-columns: 100%;
+    }
+    .grid img {
+        display: none;
+    }
+    header {
+        font-size: 2rem;
+    }
+    nav {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        margin: 0 auto;
+    }
+    .bio p {
+        display: none;
+    }
+    #contact h3 {
+        font-size: 1.5rem;
+    }
 }
