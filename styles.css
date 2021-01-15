@@ -3,6 +3,8 @@ html {
     font-size: 16px;
     font-family: "Segoe Print";
     text-align: center;
+    background-color:#A69889;
+    color: #022859;
 
 }
 h2 {
@@ -15,6 +17,9 @@ h3 {
 
 h4 {
     font-size: 1.75rem;
+}
+ul h4 {
+    text-decoration: underline;
 }
 p{
     font-size: 1.5rem;
@@ -29,7 +34,6 @@ header {
     flex-wrap: wrap;
     background-color: #A69889;
     color: #022859;
-    border: 1px solid blue;
     margin-top: -20px;
 }
 
@@ -50,17 +54,17 @@ nav ul li {
     padding: 0 10px;
     margin: -30px 10px 0 10px;
 }
-nav ul li a:link {
+a:link {
     color: #022859;
 }
 
-nav ul li a:visited {
+a:visited {
     color: #686F73;
 }
-nav ul li a:hover {
+a:hover {
     color: white;
 }
-nav ul li a:active {
+a:active {
     color: grey;
 }
 
@@ -68,7 +72,7 @@ nav ul li a:active {
     background-image: url("images/tablet_on_table.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     width: 100%;
     color: #B6BBB5;
     display: inline-flex;
@@ -87,10 +91,22 @@ nav ul li a:active {
     display: flexbox;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    
+
+}
+
 .box {
-    display: flexbox;
-    border: 1px solid black;
-    width: 25%;
+   
+    
+    width: 100%;
+    text-align: left;
 }
 
 .product-photo {
@@ -102,8 +118,15 @@ nav ul li a:active {
     display: inline-flex;
     justify-content: center;
     align-content: center;
+    text-align: center;
 
 }
+
+#team .content {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .bio {
     display: inline-block;
     width: 40%;
