@@ -87,6 +87,12 @@ nav ul li a:active {
     display: flexbox;
 }
 
+.box {
+    display: flexbox;
+    border: 1px solid black;
+    width: 25%;
+}
+
 .product-photo {
    float: right;
    width: 25%;
