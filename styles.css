@@ -1,0 +1,162 @@
+html {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Segoe Print";
+    text-align: center;
+    background-color:#A69889;
+    color: #022859;
+
+}
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+ul h4 {
+    text-decoration: underline;
+}
+p {
+    font-size: 1.5rem;
+}
+
+header {
+    font-family: 'Segoe Print';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #A69889;
+    color: #022859;
+    margin-top: -20px;
+}
+
+nav {
+    text-align: center;
+}    
+nav ul {
+    
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+nav ul li {
+    padding: 0 10px;
+    margin: -30px 10px 0 10px;
+}
+a:link {
+    color: #022859;
+}
+
+a:visited {
+    color: #686F73;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: grey;
+}
+
+#mission {
+    background-image: url("images/tablet_on_table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: #B6BBB5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission .content {
+    background-color:#A69889;
+    color: #022859;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#products {
+    display: flexbox;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    
+
+}
+
+.box {
+   
+    
+    width: 100%;
+    text-align: left;
+}
+
+.product-photo {
+   float: right;
+   width: 25%;
+}
+
+#team {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+#team .content {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bio {
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+    padding: 2%;
+    justify-content: center;
+    
+}
+.bio-photos {
+    width: 70%;
+    
+}
+
+@media only screen and (max-width: 1085px) {
+    .grid {
+        grid-template-columns: 100%;
+    }
+    .grid img {
+        display: none;
+    }
+    header {
+        font-size: 2rem;
+    }
+    nav {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        margin: 0 auto;
+    }
+    .bio p {
+        display: none;
+    }
+    #contact h3 {
+        font-size: 1.5rem;
+    }
+}
