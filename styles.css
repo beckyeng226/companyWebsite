@@ -1,7 +1,23 @@
 html {
     margin: 0;
     font-size: 16px;
+    font-family: "Segoe Print";
+    text-align: center;
 
+}
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+p{
+    font-size: 1.5rem;
 }
 
 header {
@@ -49,7 +65,22 @@ nav ul li a:active {
 }
 
 #mission {
+    background-image: url("images/tablet_on_table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #B6BBB5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#mission .content {
+    background-color:#A69889;
+    color: #022859;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #products {
@@ -58,4 +89,24 @@ nav ul li a:active {
 
 .product-photo {
    float: right;
+   width: 25%;
+}
+
+#team {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.bio {
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+    padding: 2%;
+    justify-content: center;
+    
+}
+.bio-photos {
+    width: 50%;
+    
 }
